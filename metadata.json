@@ -1,0 +1,6 @@
+{
+  "name": "CopyForge - Premium Copywriting Agency",
+  "description": "High-converting, premium AI-assisted copywriting agency website for startups and online brands.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
