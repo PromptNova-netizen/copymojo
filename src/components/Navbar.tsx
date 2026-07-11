@@ -15,11 +15,11 @@ export function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: 'Services', href: '#services' },
-    { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Testimonials', href: '#testimonials' },
-    { name: 'About', href: '#about' },
-    { name: 'Pricing', href: '#pricing' },
+    { name: 'Layanan', href: '#services' },
+    { name: 'Portofolio', href: '#portfolio' },
+    { name: 'Testimoni', href: '#testimonials' },
+    { name: 'Tentang', href: '#about' },
+    { name: 'Harga', href: '#pricing' },
     { name: 'FAQ', href: '#faq' },
   ];
 
@@ -47,11 +47,11 @@ export function Navbar() {
             </a>
           ))}
           <div className="w-px h-4 bg-white/20 mx-2"></div>
-          <a 
+          <a
             href="#contact"
             className="text-primary-400 font-bold text-sm tracking-wide uppercase hover:text-primary-300 transition-colors"
           >
-            Chat on WhatsApp
+            Chat WhatsApp
           </a>
         </nav>
 

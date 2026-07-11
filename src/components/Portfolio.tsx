@@ -4,28 +4,28 @@ import { ArrowUpRight } from 'lucide-react';
 export function Portfolio() {
   const cases = [
     {
-      client: "E-commerce Landing Page",
-      description: "A complete overhaul of a direct-to-consumer landing page, focusing on product benefits, social proof, and a streamlined checkout flow.",
+      client: "Online Shop Fashion - 2x Revenue",
+      description: "Rewrite product description dan landing page untuk online shop fashion lokal. Hasil: 2x peningkatan conversion rate dalam 3 bulan.",
       image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&q=80&w=800",
-      tag: "Landing Page Copywriting"
+      tag: "E-commerce Copy"
     },
     {
-      client: "Tech Startup Website",
-      description: "Crafted the complete messaging strategy for a new B2B SaaS startup, replacing technical jargon with clear, value-driven value propositions.",
+      client: "Jasa Konsultasi - Email Funnel",
+      description: "Buat email marketing sequence untuk jasa konsultasi bisnis. Hasil: 40+ leads per bulan dari email list mereka.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-      tag: "Website Copywriting"
+      tag: "Email Marketing"
     },
     {
-      client: "Beauty Brand Copy",
-      description: "Developed a cohesive brand voice and wrote SEO-optimized product descriptions for an organic skincare line, emphasizing natural ingredients.",
+      client: "UMKM Kuliner - Website Overhaul",
+      description: "Redesign seluruh website copy untuk UMKM kuliner. Dari tentang produk hingga testimoni. Hasil: 3x booking order online.",
       image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=800",
-      tag: "Product Description"
+      tag: "Website Copy"
     },
     {
-      client: "Restaurant Website",
-      description: "Designed compelling website copy and menu descriptions that capture the atmosphere and culinary philosophy of a fine-dining establishment.",
+      client: "Digital Course - Sales Page",
+      description: "Tulis sales page dan email launch sequence untuk digital course. Hasil: 150+ enrollments dalam launch week pertama.",
       image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800",
-      tag: "Website Copywriting"
+      tag: "Sales Page"
     }
   ];
 
@@ -34,13 +34,13 @@ export function Portfolio() {
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 md:gap-8 mb-12 md:mb-20">
           <div className="max-w-2xl">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-4 md:mb-6 tracking-tight text-white">Portfolio</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-4 md:mb-6 tracking-tight text-white">Portofolio</h2>
             <p className="text-gray-400 text-base sm:text-lg md:text-xl">
-              A selection of my recent work helping businesses communicate their value clearly and effectively.
+              Lihat hasil karya saya membantu UMKM jual lebih banyak dengan copywriting yang tepat.
             </p>
           </div>
           <a href="#contact" className="px-8 py-4 min-h-[56px] rounded-full bg-white/5 backdrop-blur-md border border-white/10 text-white font-bold text-xs uppercase tracking-widest hover:bg-white/10 hover:-translate-y-1 hover:shadow-lg transition-all flex items-center justify-center gap-2 w-full md:w-fit">
-            Start a Project <ArrowUpRight size={16} />
+            Mulai Proyek <ArrowUpRight size={16} />
           </a>
         </div>
 
