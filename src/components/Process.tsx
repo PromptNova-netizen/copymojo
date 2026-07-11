@@ -2,20 +2,20 @@ import { motion } from 'motion/react';
 
 export function Process() {
   const steps = [
-    { number: "01", title: "Discovery", description: "We dive deep into your business, your offers, and your revenue goals." },
-    { number: "02", title: "Research", description: "I manually review competitors, mine customer pain points, and build customer personas." },
-    { number: "03", title: "Copy Creation", description: "I write high-converting copy blending human psychology with advanced AI insights." },
-    { number: "04", title: "Revision", description: "We review the copy together and make any necessary tweaks to ensure perfection." },
-    { number: "05", title: "Delivery", description: "You receive the final, ready-to-deploy copy formatted perfectly for your platform." },
+    { number: "01", title: "Konsultasi", description: "Kami diskusi dalam tentang bisnis anda, produk, dan goals penjualan anda." },
+    { number: "02", title: "Riset", description: "Kami audit competitor, analisa customer anda, dan buat buyer persona yang detail." },
+    { number: "03", title: "Penulisan", description: "Kami tulis copy yang convert menggunakan psychology dan copywriting formula yang terbukti." },
+    { number: "04", title: "Revisi", description: "Kami review copy bareng anda dan refinement sampai anda 100% puas." },
+    { number: "05", title: "Delivery", description: "Serah copy final yang siap pakai dan tinggal di-implementasi ke website anda." },
   ];
 
   return (
     <section className="py-16 md:py-24 relative overflow-hidden bg-[#030712] border-t border-white/5">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-24">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold mb-6 tracking-tight text-white">The CopyMojo Process</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold mb-6 tracking-tight text-white">Proses Kerja Kami</h2>
           <p className="text-gray-400 text-lg leading-relaxed">
-            A frictionless, transparent process designed to deliver exceptional copy on time, every time.
+            Proses yang transparan dan simple, dirancang untuk deliver copy berkualitas tepat waktu, setiap saat.
           </p>
         </div>
 

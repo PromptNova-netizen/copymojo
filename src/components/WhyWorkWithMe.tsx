@@ -5,23 +5,23 @@ export function WhyWorkWithMe() {
   const reasons = [
     {
       icon: <Bot size={24} />,
-      title: "AI + Human Quality",
-      description: "We leverage advanced AI for speed and data processing, but every word is polished by an expert human copywriter for maximum psychological impact."
+      title: "Hasil Berkualitas Tinggi",
+      description: "Kami gunakan research mendalam dan copywriting formula yang terbukti. Setiap kata dipilih untuk maximize psychological impact dan conversions."
     },
     {
       icon: <Zap size={24} />,
-      title: "Fast Turnaround",
-      description: "Time is money. I deliver high-quality, ready-to-publish copy within strict deadlines so you can launch faster."
+      title: "Proses Cepat",
+      description: "Kami deliver copy berkualitas dengan timeline yang jelas. Tidak ada delay, tepat waktu sesuai deadline yang disepakati."
     },
     {
       icon: <Wallet size={24} />,
-      title: "Affordable Pricing",
-      description: "Premium agency-level copy without the bloated agency retainer fees. Transparent pricing structured for immediate ROI."
+      title: "Harga Terjangkau",
+      description: "Kualitas premium dengan harga yang wajar untuk UMKM. Tidak ada biaya tersembunyi, harga transparan dengan ROI yang clear."
     },
     {
       icon: <Target size={24} />,
-      title: "Business-Focused Strategy",
-      description: "Every sentence is engineered to move the needle. No fluff, just conversion-focused writing that drives revenue."
+      title: "Fokus pada Penjualan",
+      description: "Setiap kalimat ditulis untuk increase conversions dan revenue. Tidak ada marketing fluff, hanya copy yang beneran jual."
     }
   ];
 
@@ -29,22 +29,22 @@ export function WhyWorkWithMe() {
     <section className="py-16 md:py-24 relative overflow-hidden bg-[#030712] border-t border-white/5">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-20">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6 }}
             className="lg:w-1/3"
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold mb-6 tracking-tight text-white">Why Choose CopyMojo</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold mb-6 tracking-tight text-white">Kenapa Pilih Kami</h2>
             <p className="text-gray-400 text-lg leading-relaxed mb-8">
-              I combine raw human psychology, deep research, and modern AI tools to deliver copy that doesn't just sound good—it sells.
+              Kami gabungin psychology, research mendalam, dan formula copywriting yang terbukti untuk create copy yang beneran jual.
             </p>
-            <a 
+            <a
               href="#contact"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white/5 backdrop-blur-md border border-white/10 text-white font-bold uppercase tracking-widest text-sm hover:bg-white/10 hover:scale-[1.03] hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-all duration-300"
             >
-              Let's Talk
+              Hubungi Kami
             </a>
           </motion.div>
 

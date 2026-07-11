@@ -4,28 +4,28 @@ import { ChevronDown } from 'lucide-react';
 
 const faqs = [
   {
-    question: "How does the AI-powered copywriting process work?",
-    answer: "We use advanced AI models to process massive datasets, analyze competitor strategies, and identify market gaps. Then, our expert human copywriters take those insights to craft emotionally compelling, conversion-focused copy tailored to your brand voice."
+    question: "Berapa lama proses penulisan copy dimulai dari awal?",
+    answer: "Tergantung paket yang dipilih. Paket Basic: 5 hari kerja. Paket Professional: 10 hari kerja. Paket Premium: 15 hari kerja. Waktu ini sudah termasuk research, penulisan, dan 1-3 revisi."
   },
   {
-    question: "What is your typical turnaround time?",
-    answer: "For Starter projects like a single landing page, our standard turnaround is 7 days. The Growth package takes 14 days, and the Premium package takes 21 days, ensuring we have ample time for deep research and strategic alignment."
+    question: "Bagaimana proses kerjanya? Apakah ada konsultasi?",
+    answer: "Proses dimulai dengan konsultasi WhatsApp gratis. Kami tanya tentang bisnis, target customer, dan goals anda. Kemudian kami audit website/copy yang ada sekarang. Baru setelah itu mulai menulis copy yang baru."
   },
   {
-    question: "Do you offer revisions if I'm not satisfied?",
-    answer: "Absolutely. The Starter package includes 1 round of revisions, Growth includes 2 rounds, and our Premium package comes with priority support and unlimited revisions. Our goal is 100% satisfaction and measurable results."
+    question: "Apakah ada garansi atau jaminan hasil?",
+    answer: "Kami jamin kepuasan anda. Jika copy yang kami buat kurang memuaskan atau ingin revisi, kami siap lakukan revisi sesuai jumlah yang tertera di paket. Paket Premium bahkan unlimited revisions."
   },
   {
-    question: "Will you implement the copy on our website or CRM?",
-    answer: "Our packages focus strictly on delivering high-converting copy assets. We provide the copy in a clean, developer-ready format (like Google Docs or Figma wireframes) making it easy for your design and development teams to implement seamlessly."
+    question: "Bagaimana cara mentransfer copy yang sudah jadi ke website?",
+    answer: "Kami deliver copy dalam format Google Docs atau Word yang rapi dan siap pakai. Anda atau tim developer anda tinggal copy-paste ke website. Kami tidak handle implementasi teknis karena fokus kami adalah copywriting."
   },
   {
-    question: "How do you learn our brand voice?",
-    answer: "We start every project with an in-depth onboarding questionnaire and a strategy call. We analyze your existing materials, past successful campaigns, and customer feedback to develop comprehensive Brand Voice Guidelines before writing a single word."
+    question: "Berapa harga yang sebenarnya? Ada biaya tambahan?",
+    answer: "Harga yang tertera sudah final. Tidak ada biaya hidden atau tambahan. Semua yang dijanjikan di paket sudah termasuk dalam harga tersebut. Pembayaran bisa dilakukan sebelum kami mulai atau bertahap."
   },
   {
-    question: "What makes CopyMojo different from freelance copywriters?",
-    answer: "CopyMojo operates like a premium SaaS agency. We combine the scale and data-processing capabilities of AI with the strategic nuance of senior human copywriters. This hybrid approach allows us to deliver agency-tier quality without the bloated retainer fees."
+    question: "Bagaimana jika saya belum yakin dengan services ini?",
+    answer: "Tidak masalah! Silahkan chat kami di WhatsApp untuk konsultasi gratis dulu. Kami bisa audit website/copy anda dan kasih 3 tips konkret untuk tingkatkan penjualan. Setelah itu baru anda putuskan apakah ingin lanjut."
   }
 ];
 
@@ -36,9 +36,9 @@ export function FAQ() {
     <section id="faq" className="py-16 md:py-24 relative bg-[#030712]">
       <div className="max-w-4xl mx-auto px-4 md:px-6">
         <div className="text-center mb-12 md:mb-20">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-4 md:mb-6 tracking-tight text-white">Frequently Asked Questions</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-4 md:mb-6 tracking-tight text-white">Pertanyaan Umum</h2>
           <p className="text-gray-400 text-base sm:text-lg md:text-xl">
-            Everything you need to know about our process, delivery, and methodology.
+            Semua yang perlu anda tahu tentang proses copywriting, delivery, dan cara kerjanya.
           </p>
         </div>
 
