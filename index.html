@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Computer Science Student Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name, a Computer Science student showcasing skills and projects." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#top" class="navbar__logo">Your Name</a>
+
+      <nav class="navbar__nav" id="navMenu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <p class="hero__eyebrow">Hi, my name is</p>
+        <!-- TODO: Replace with your real name -->
+        <h1 class="hero__name">Your Name</h1>
+        <!-- TODO: Replace with your real university and course -->
+        <h2 class="hero__tagline">Computer Science Student @ Your University</h2>
+        <!-- TODO: Replace with a short introduction about yourself -->
+        <p class="hero__intro">
+          I'm a final-year Computer Science student passionate about building clean, useful software.
+          I enjoy working across the web stack and I'm currently looking for internship and
+          entry-level opportunities where I can learn and contribute.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="#contact" class="btn btn--outline">Contact Me</a>
+        </div>
+
+        <div class="hero__socials">
+          <!-- TODO: Replace "#" with your real profile links -->
+          <a href="#" class="social-icon" aria-label="GitHub" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 4.94 3.2 9.13 7.65 10.61.56.1.76-.24.76-.54 0-.27-.01-1.16-.02-2.1-3.11.68-3.77-1.32-3.77-1.32-.51-1.3-1.24-1.65-1.24-1.65-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.7 2.6 1.21 3.23.93.1-.72.39-1.21.7-1.49-2.48-.28-5.1-1.24-5.1-5.53 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.61 1.53.23 2.67.11 2.95.72.78 1.15 1.78 1.15 3 0 4.3-2.63 5.24-5.13 5.52.4.35.76 1.04.76 2.1 0 1.51-.01 2.73-.01 3.1 0 .3.2.65.77.54A11.03 11.03 0 0 0 23.02 11.5C23.02 5.24 18.27.5 12 .5z"/></svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z"/></svg>
+          </a>
+          <a href="mailto:your.email@example.com" class="social-icon" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M2 4h20a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v.01L12 13 22 6.01V6H2zm0 12h20V8.24l-9.4 6.4a1 1 0 0 1-1.2 0L2 8.24V18z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section__eyebrow">Get To Know Me</p>
+        <h2 class="section__title">About Me</h2>
+
+        <div class="about__grid">
+          <div class="avatar-placeholder" aria-hidden="true">YN</div>
+
+          <div class="about__content">
+            <!-- TODO: Replace with your real bio -->
+            <p>
+              I'm a Computer Science undergraduate with a strong interest in software development,
+              web technologies, and problem solving. I like turning ideas into working products and
+              I'm always looking for new things to learn, from algorithms to modern frameworks.
+            </p>
+            <p>
+              Outside of coursework, I enjoy building side projects, contributing to small open-source
+              tools, and taking part in hackathons and coding competitions.
+            </p>
+
+            <ul class="about__facts">
+              <!-- TODO: Replace with your real details -->
+              <li><strong>University:</strong> Your University Name</li>
+              <li><strong>Year of Study:</strong> Year 3</li>
+              <li><strong>CGPA:</strong> 3.7 / 4.0</li>
+              <li><strong>Location:</strong> Kuala Lumpur, Malaysia</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <p class="section__eyebrow">What I Know</p>
+        <h2 class="section__title">Skills</h2>
+
+        <!-- TODO: Add/remove skills to match what you actually know -->
+        <div class="skills__grid">
+          <div class="skill-card">
+            <h3>Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>C</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Web Development</h3>
+            <ul>
+              <li>HTML &amp; CSS</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>REST APIs</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Tools &amp; Platforms</h3>
+            <ul>
+              <li>Git &amp; GitHub</li>
+              <li>VS Code</li>
+              <li>Linux</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Databases</h3>
+            <ul>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>Firebase</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section__eyebrow">My Work</p>
+        <h2 class="section__title">Projects</h2>
+
+        <!-- TODO: Replace each card below with one of your real projects.
+             Copy a .project-card block to add more projects. -->
+        <div class="projects__grid">
+          <article class="project-card">
+            <div class="project-card__thumb" aria-hidden="true">01</div>
+            <div class="project-card__body">
+              <h3>Project Name One</h3>
+              <p>A short description of what this project does and the problem it solves.</p>
+              <div class="tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" target="_blank" rel="noopener">GitHub &rarr;</a>
+                <a href="#" target="_blank" rel="noopener">Live Demo &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__thumb" aria-hidden="true">02</div>
+            <div class="project-card__body">
+              <h3>Project Name Two</h3>
+              <p>A short description of what this project does and the problem it solves.</p>
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">Flask</span>
+                <span class="tag">SQL</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" target="_blank" rel="noopener">GitHub &rarr;</a>
+                <a href="#" target="_blank" rel="noopener">Live Demo &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__thumb" aria-hidden="true">03</div>
+            <div class="project-card__body">
+              <h3>Project Name Three</h3>
+              <p>A short description of what this project does and the problem it solves.</p>
+              <div class="tags">
+                <span class="tag">Java</span>
+                <span class="tag">Android</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" target="_blank" rel="noopener">GitHub &rarr;</a>
+                <a href="#" target="_blank" rel="noopener">Live Demo &rarr;</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section class="section section--alt" id="education">
+      <div class="container">
+        <p class="section__eyebrow">My Background</p>
+        <h2 class="section__title">Education</h2>
+
+        <!-- TODO: Replace with your real education history -->
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <h3>Bachelor of Computer Science</h3>
+              <p class="timeline__meta">Your University Name &middot; 2023 &ndash; 2027 (Expected)</p>
+              <p>Relevant coursework: Data Structures &amp; Algorithms, Database Systems, Web Development, Software Engineering, Computer Networks.</p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <h3>SPM / Foundation / Diploma</h3>
+              <p class="timeline__meta">Your School/College Name &middot; 2021 &ndash; 2023</p>
+              <p>Science stream with a focus on Mathematics and Additional Mathematics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact">
+      <div class="container contact__inner">
+        <p class="section__eyebrow">Get In Touch</p>
+        <h2 class="section__title">Contact Me</h2>
+        <p class="contact__intro">
+          I'm currently open to internship and entry-level opportunities.
+          Feel free to reach out &mdash; I'll try to get back to you as soon as I can.
+        </p>
+
+        <!-- Simple mailto form: no backend/server needed. -->
+        <!-- TODO: Replace "your.email@example.com" with your real email -->
+        <form class="contact-form" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Send Message</button>
+        </form>
+
+        <div class="contact__socials">
+          <!-- TODO: Replace "#" with your real profile links -->
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:your.email@example.com">Email</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> Your Name. Built with HTML, CSS &amp; JavaScript.</p>
+      <div class="footer__socials">
+        <a href="#" target="_blank" rel="noopener">GitHub</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:your.email@example.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
